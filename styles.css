@@ -1,0 +1,19 @@
+html, body { 
+    height: 100%; margin: 0; padding: 0; overflow: hidden; background: #050505; overscroll-behavior: none; }
+body { font-family: ui-monospace, "Cascadia Mono", Menlo, Consolas, monospace; color: #b9bec7; -webkit-tap-highlight-color: transparent; touch-action: none; }
+* { box-sizing: border-box; }
+#stage { position: fixed; inset: 0; width: 100%; height: 100%; display: block; cursor: crosshair; image-rendering: pixelated; }
+#hud { position: fixed; left: 14px; bottom: 14px; z-index: 10; background: rgba(12,12,15,0.85); border: 1px solid #26262e; border-radius: 4px; padding: 12px 14px 11px; font-size: 11px; line-height: 1.55; user-select: none; -webkit-user-select: none; touch-action: none; max-width: calc(100vw - 28px); }
+#hud h1 { margin: 0 0 2px; font-size: 12px; font-weight: 600; color: #e8eaf0; letter-spacing: .05em; cursor: pointer; }
+#hud h1:hover { color: #ffffff; }
+#hud .sub { color: #7c828c; margin-bottom: 9px; }
+#rel { color: #9aa0a9; margin-bottom: 5px; }
+#matrix { display: block; cursor: crosshair; }
+#readout { margin-top: 6px; color: #6f7580; min-height: 15px; }
+.row { display: flex; gap: 6px; margin-top: 9px; flex-wrap: wrap; }
+button { font: inherit; font-size: 11px; color: #c6cbd4; background: #15151a; border: 1px solid #2c2c35; border-radius: 3px; padding: 3px 10px; cursor: pointer; }
+button:hover { background: #1d1d24; border-color: #3d3d49; }
+.note, #credit { margin-top: 9px; color: #555b64; font-size: 10px; }
+.note + .note { margin-top: 3px; }
+#hud.closed #panel { display: none; }
+#hud.closed h1 { margin: 0; }
