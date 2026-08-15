@@ -2,10 +2,18 @@
 
 ![HackaTime](https://hackatime.hackclub.com/api/v1/badge/U0BNR4WBM6W/lakshyabuilds/particle-life)
 
-The seven colours of pixels push and pull on each other by a set of rules, and out of that mess they build shapes nobody drew, cells, filaments, worms, little chasing swarms. every particle is a single coloured pixel. you can rewrite the rules while it runs, zoom into the crowd, and poke it around with the mouse.
+The seven colors of pixels push and pull on each other by a set of rules, and out of that mess they build shapes nobody drew, cells, filaments, worms, little chasing swarms. every particle is a single colored pixel. you can rewrite the rules while it runs, zoom into the crowd, and poke it around with the mouse.
+
+## start of game
 
 ![Start](screenshots/starting.png)
+
+## mid of game
+
 ![Mid](screenshots/mid.png)
+
+## emerging new life
+
 ![New Life](screenshots/organism.png)
 
 **live demo:** [Particle Life](https://lakshyabuilds.github.io/particle-life/)
@@ -26,7 +34,7 @@ I have seen many particle-life videos on YouTube. And, the most of the concept o
 
 - Plain javascript, no framework, no build step
 - HTML canvas 2d for drawing
-- Typed arrays (`Float32Array`) for the particle data, plus a spatial hash grid so it can check neighbours without comparing every pair
+- Typed arrays (`Float32Array`) for the particle data, plus a spatial hash grid so it can check neighbors without comparing every pair
 - Zero dependencies. Three files, `index.html`, `style.css`, `script.js`
 
 ## how it was built (and what broke)
