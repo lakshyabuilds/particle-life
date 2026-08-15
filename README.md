@@ -4,7 +4,9 @@
 
 The seven colours of pixels push and pull on each other by a set of rules, and out of that mess they build shapes nobody drew, cells, filaments, worms, little chasing swarms. every particle is a single coloured pixel. you can rewrite the rules while it runs, zoom into the crowd, and poke it around with the mouse.
 
-![screenshot of the simulation](screenshot.png)
+![Start](screenshots/starting.png)
+![Mid](screenshots/mid.png)
+![New Life](screenshots/organism.png)
 
 **live demo:** [Particle Life](https://lakshyabuilds.github.io/particle-life/)
 
