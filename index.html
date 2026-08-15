@@ -1,31 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>particle life (techiral)</title>
-    <link rel="stylesheet" href="styles.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+<title>particle life</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><rect width='16' height='16' fill='%23050505'/><rect x='2' y='2' width='4' height='4' fill='%23ff4d6d'/><rect x='10' y='2' width='4' height='4' fill='%233bc9db'/><rect x='2' y='10' width='4' height='4' fill='%23ffe066'/><rect x='10' y='10' width='4' height='4' fill='%2369db7c'/></svg>">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <canvas id="stage"></canvas>
-    <div id="hud">
-        <h1 id="title">particle life</h1>
-        <div id="panel">
-            <div class="sub" id="meta"></div>
-            <div id="rel">relations, paint to rewire</div>
-            <canvas id="matrix"></canvas>
-            <div id="readout">drag up to pull, down to shun</div>
-            <div class="row">
-                <button id="btnRules">new rules</button>
-                <button id="btnSoup">new soup</button>
-                <button id="btnPause">pause</button>
-                <button id="btnSpeed">1x</button>
-            </div>
-            <div class="note">click to seed, hold to gther, right-click to blast, wheel zoom, space pause, r rules, n soup, h hide</div>
-            <div class="note">edges wrap, so there are no corners to pile into</div>
-            <div id="credit">one file, no build, no deps</div>
-        </div>
+<canvas id="stage"></canvas>
+<div id="hud">
+  <h1 id="title">particle life</h1>
+  <div id="panel">
+    <div class="sub" id="meta"></div>
+    <div id="rel">relations, paint to rewire</div>
+    <canvas id="matrix"></canvas>
+    <div id="readout">drag up to pull, down to repel</div>
+    <div class="row">
+      <button id="btnRules">new rules</button>
+      <button id="btnSoup">new soup</button>
+      <button id="btnPause">pause</button>
+      <button id="btnSpeed">1×</button>
     </div>
-    <script src="script.js"></script>
+    <div class="note">click to seed, right-click to blast, wheel to zoom, space to pause, r for rules, n for soup, h to hide</div>
+  </div>
+</div>
+<script src="script.js"></script>
 </body>
 </html>
